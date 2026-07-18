@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './components/Card'
+import { Analytics } from '@vercel/analytics/react'
 
 const App = () => {
 
@@ -114,6 +115,7 @@ const App = () => {
           <Card company={elem.companyName} datePosted={elem.datePosted} post={elem.post} tag1={elem.tag1} brandLogo={elem.brandLogo} pay={elem.pay} tag2={elem.tag2} />
         </div>
       })}
+      <Analytics />
     </div>
   )
 }
