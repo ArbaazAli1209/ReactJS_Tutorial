@@ -5,7 +5,7 @@ const App = () => {
 
   const jobOpenings = [
     {
-      brandLogo: "https://pngimg.com/uploads/meta/meta_PNG12.png",
+      brandLogo: "/logos/meta.png",
       companyName: "Meta",
       datePosted: "5 days ago",
       post: "Frontend Engineer",
@@ -15,7 +15,7 @@ const App = () => {
       location: "Menlo Park, USA"
     },
     {
-      brandLogo: "https://static.vecteezy.com/system/resources/previews/014/018/561/non_2x/amazon-logo-on-transparent-background-free-vector.jpg",
+      brandLogo: "/logos/amazon-logo.jpg",
       companyName: "Amazon",
       datePosted: "2 weeks ago",
       post: "Backend Developer",
@@ -25,7 +25,7 @@ const App = () => {
       location: "Hyderabad, India"
     },
     {
-      brandLogo: "https://substackcdn.com/image/fetch/$s_!G1lk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8ed3d547-94ff-48e1-9f20-8c14a7030a02_2000x2000.jpeg",
+      brandLogo: "/logos/apple-logo.jpg",
       companyName: "Apple",
       datePosted: "3 weeks ago",
       post: "iOS Developer",
@@ -35,7 +35,7 @@ const App = () => {
       location: "Cupertino, USA"
     },
     {
-      brandLogo: "https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456",
+      brandLogo: "/logos/Netflix-Symbol.png",
       companyName: "Netflix",
       datePosted: "10 days ago",
       post: "Machine Learning Engineer",
@@ -45,7 +45,7 @@ const App = () => {
       location: "Los Gatos, USA"
     },
     {
-      brandLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/1200px-Google_%22G%22_logo.svg.png",
+      brandLogo: "/logos/google-logo.jpg",
       companyName: "Google",
       datePosted: "1 week ago",
       post: "Cloud Solutions Architect",
@@ -55,7 +55,7 @@ const App = () => {
       location: "Bangalore, India"
     },
     {
-      brandLogo: "https://download.logo.wine/logo/Microsoft_Store/Microsoft_Store-Logo.wine.png",
+      brandLogo: "/logos/Microsoft_Logo.png",
       companyName: "Microsoft",
       datePosted: "4 weeks ago",
       post: "Data Scientist",
@@ -65,7 +65,7 @@ const App = () => {
       location: "Redmond, USA"
     },
     {
-      brandLogo: "https://blog.logomaster.ai/hs-fs/hubfs/ibm-logo-1967.jpg?width=672&height=454&name=ibm-logo-1967.jpg",
+      brandLogo: "/logos/ibm-logo.webp",
       companyName: "IBM",
       datePosted: "2 days ago",
       post: "AI Research Engineer",
@@ -75,7 +75,7 @@ const App = () => {
       location: "New York, USA"
     },
     {
-      brandLogo: "https://www.pngplay.com/wp-content/uploads/13/Tesla-Logo-PNG-HD-Quality.png",
+      brandLogo: "/logos/Tesla-Logo.png",
       companyName: "Tesla",
       datePosted: "6 days ago",
       post: "Software Engineer",
@@ -85,7 +85,7 @@ const App = () => {
       location: "Austin, USA"
     },
     {
-      brandLogo: "https://www.nvidia.com/content/dam/en-zz/Solutions/about-nvidia/logo-and-brand/nvidia-og-image-white-bg-1200x630.jpg",
+      brandLogo: "/logos/nvidia-image.jpg",
       companyName: "NVIDIA",
       datePosted: "3 weeks ago",
       post: "GPU Programmer",
@@ -95,7 +95,7 @@ const App = () => {
       location: "Santa Clara, USA"
     },
     {
-      brandLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnOVjTWaheo4E99cgYZ6y14tpsgHlm0VN8Hw&s",
+      brandLogo: "/logos/oracle.png",
       companyName: "Oracle",
       datePosted: "8 days ago",
       post: "Database Administrator",
