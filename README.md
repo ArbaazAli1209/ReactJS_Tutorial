@@ -87,7 +87,7 @@ React-Learning/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
+git clone https://github.com/ArbaazAli1209/ReactJS_Tutorial.git
 ```
 
 ### Install dependencies
