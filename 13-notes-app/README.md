@@ -1,16 +1,52 @@
-# React + Vite
+# Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React note-taking app built with Vite and Tailwind CSS. Users can add notes with a heading and details, then delete them from the notes list.
 
-Currently, two official plugins are available:
+Live demo: https://notes-app-liard-alpha.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Add a note with a title and details
+- Display notes in a card grid
+- Delete individual notes
+- Responsive layout styled with Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite
+- Tailwind CSS
+- ESLint
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+- `src/App.jsx` — main note form and note list UI
+- `src/main.jsx` — application entry point
+- `package.json` — scripts and dependencies
+
+## Setup
+
+1. Install dependencies:
+   - `npm install`
+2. Start the development server:
+   - `npm run dev`
+
+## Available Scripts
+
+- `npm run dev` — start Vite dev server
+- `npm run build` — build production assets
+- `npm run preview` — preview the built app locally
+- `npm run lint` — run ESLint
+
+## Usage
+
+1. Open the app in the browser.
+2. Enter a note title.
+3. Add note details.
+4. Click **Add Note** to save the note.
+5. Click **Delete** to remove a note.
+
+## Notes
+
+- Notes are stored in React state only and are not persisted after refresh.
+- The app supports adding and deleting notes only.
