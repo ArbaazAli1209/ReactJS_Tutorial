@@ -60,28 +60,6 @@ The primary goal of this repository is to build a strong foundation in React and
 
 ---
 
-## 📂 Repository Structure
-
-```
-React-Learning/
-│
-├── 01_intro/
-├── 02_components/
-├── 03_props/
-├── 04_state/
-├── 05_events/
-├── 06_hooks/
-├── 07_forms/
-├── 08_routing/
-├── 09_api/
-├── 10_projects/
-└── README.md
-```
-
-> Folder names may vary as new topics and projects are added.
-
----
-
 ## 🚀 Getting Started
 
 ### Clone the repository
