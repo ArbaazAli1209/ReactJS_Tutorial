@@ -4,7 +4,7 @@ A simple React + Vite project that showcases a collection of job cards for diffe
 
 ## Demo
 
-- Live demo: 
+- Live demo: https://cardsproject-seven.vercel.app/
 
 ## Features
 
