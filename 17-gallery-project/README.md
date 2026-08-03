@@ -2,6 +2,8 @@
 
 A simple React + Vite gallery app that fetches and displays image cards from the Picsum API. The app uses Tailwind CSS for styling and Axios for API requests.
 
+Live Demo: https://gallery-project-eosin.vercel.app/
+
 ## Features
 
 - Fetches image data from `https://picsum.photos/v2/list`
